@@ -1,5 +1,4 @@
 from flask import Flask, request
-import db
 import json
 from flask_pymongo import pymongo
 
@@ -15,11 +14,6 @@ incorrect_predictions = pymongo.collection.Collection(db, 'incorrect-predictions
 
 # collection for words
 words = pymongo.collection.Collection(db, 'words')
-
-
-@app.route('/hello', methods=['GET', 'POST'])
-def welcome():
-    return "Hello World!"
 
 #insert data to the data base
 @app.route("/add/misspelled", methods=["POST"])
