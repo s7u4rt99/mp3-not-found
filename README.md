@@ -9,6 +9,8 @@ To be able to successfully classify images into letters we propose an Internet-o
 
 ## machine_learning
 
+This folder contains the code for the entire Machine learning pipeline. It contains code for extracting frames from videos, converting them into file to label mapping for the `ImageDataset`. It also contains the training code for the various models we tried. For this particular project we are using the `PyTorch` framework. [Do note that you may have to change the directory names within the files and download the dataset for the code to work properly]
+
 ## WeMos_Client
 
 ## FONZ5R7IOSPBB9K.ino
