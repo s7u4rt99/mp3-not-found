@@ -13,7 +13,8 @@ This folder contains the code for the entire Machine learning pipeline. It conta
 
 ## WeMos_Client
 
-## FONZ5R7IOSPBB9K.ino
+## light level detector
+This folder contains the code of our light level detector to detect the surrounding light of the environment and lights up if the room is too dark for classification.
 
 ## flask_server
 This folder contains the code to run the Flask server with REST API endpoints to communicate with our MongoDB database. To set up the flask server, go into the `flask_server` folder, and run `python3 server.py` which runs the server on `localhost:8000`.
