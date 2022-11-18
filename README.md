@@ -7,11 +7,14 @@ To be able to successfully classify images into letters we propose an Internet-o
 
 ## Jupyter Notebooks (Clients)
 
+This folder contains the Jupyter Notebooks for our various MQTT clients - the Image Receiver client, CNN client, and NLP client. To run these notebooks, simply follow the instruction specified in the individual notebooks.
+
 ## machine_learning
 
 This folder contains the code for the entire Machine learning pipeline. It contains code for extracting frames from videos, converting them into file to label mapping for the `ImageDataset`. It also contains the training code for the various models we tried. For this particular project we are using the `PyTorch` framework. [Do note that you may have to change the directory names within the files and download the dataset for the code to work properly]
 
 ## WeMos_Client
+This folder contains the Arduino code for the WeMos that is connected to the joystick and LCD screen. In it, it also contains the code to connect to Wifi and the MQTT server. 
 
 ## light level detector
 This folder contains the code of our light level detector to detect the surrounding light of the environment and lights up if the room is too dark for classification.
